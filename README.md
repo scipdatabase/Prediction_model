@@ -41,10 +41,7 @@ The Python code for complete model creation can be found in the Jupyter Notebook
 
 - `model.py`: Python script to run the model.
 - `Combined_stress.ipynb`: Jupyter Notebook containing the model creation code.
-- `X_train.csv`: Data used for training.
-- `y_train.csv`: Corresponding labels for training data.
 - `example.csv`: An example file to show the required data format.
-- `Real_output.csv`: Actual CSV output file for the example.
 
 ### Model Files
 
