@@ -12,7 +12,7 @@ from sklearn.preprocessing import LabelEncoder
 import joblib  # To save and load LabelEncoder
 
 
-# In[56]:
+# Model upload
 
 
 # load json and create model
@@ -26,7 +26,7 @@ print("Loaded model from disk")
 le = joblib.load('label_encoder.pkl')
 
 
-# In[57]:
+# Classification
 
 
 def preprocess_categorical_features(data, le):
