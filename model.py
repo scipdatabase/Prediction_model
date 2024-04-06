@@ -35,39 +35,29 @@ def preprocess_categorical_features(data, le):
     return data
 
 
-# In[58]:
-
-
 #Load the data for making predictions with the model 
 X_test1 = pd.read_csv('example.csv')
-
-
-# In[59]:
 
 
 X_test1.drop(X_test1.columns[[0]],axis=1, inplace=True)
 
 
-# In[60]:
+# Prediction
 
 
 predictions = loaded_model.predict(X_test1)
 
-
-# In[62]:
-
+predicted_class_probs = predictions[1]
+predicted_class_index = np.argmax(predicted_class_probs, axis=1)
+predicted_class_labels = le.inverse_transform(predicted_class_index)
+percent = np.array(predictions[0])
+percent *= 100
+df_percent = pd.DataFrame(percent, columns=['Percentage_loss'])
+df_class = pd.DataFrame(predicted_class_labels, columns=['Class'])
+df_combined = pd.concat([df_percent, df_class], axis=1)
 
 #save the output
-pdf[['predicted_class', 'predicted_reg']].to_csv('prediction_output.csv', index=False)
-
-
-# In[63]:
-
-
-pdf
-
-
-# In[ ]:
+df_combined.to_csv('prediction_output.csv', index=False)
 
 
 
