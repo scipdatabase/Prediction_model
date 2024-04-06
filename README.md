@@ -11,7 +11,7 @@ To use this model, you'll need to follow these steps:
 
 Make sure you have the following libraries installed:
 
-```bash
+```sh
 pip install pandas numpy keras scikit-learn
 ```
 
@@ -23,7 +23,7 @@ Clone the repository:
 git clone https://github.com/<your_repo>/your-model.git
 cd your-model
 ```
-
+or Just down load the folder from the link i
 ### Usage
 
 1. Upload your data in the same format as `example.csv`.
