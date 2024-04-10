@@ -23,7 +23,28 @@ Clone the repository:
 git clone https://github.com/<your_repo>/your-model.git
 cd your-model
 ```
-or Just down load the folder from the link i
+or To download the code directly from the repository, you can follow these steps:
+
+1. Look for the green "Code" button on the right side of the page.
+2. Click on the "Code" button.
+3. In the dropdown that appears, select "Download ZIP".
+4. Save the ZIP file to your computer and extract the contents.
+
+This will download the entire repository as a ZIP file, which you can then extract to access the code.
+### Examples
+Your data looks like this 
+| TREATMENT |Tempratute | Drought | Plant |
+|-----------|-----------|---------|-------|
+| Control   | 28.00     | None    | Rice  |
+| Drought   | 28.00     | Mild    | None  |
+| D+H       | 36.00     | Mild    | None  |
+| Heat      | 36.00     | None    | None  |
+
+
+Convert this table to the format given in Example.csv
+
+
+
 ### Usage
 
 1. Upload your data in the same format as `example.csv`.
