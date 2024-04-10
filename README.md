@@ -108,13 +108,12 @@ Convert this table to the format given in example.csv
 | Type_Abiotic-biotic  | 0       |
 | Type_Biotic-biotic   | 0       |
 
-### Usage
+### Running the Model
 
-1. Upload your data in the same format as `example.csv`.
-2. Run the model using `model.py`.
+Make sure to have the required libraries installed and upload your data in the same format as `example.csv`. Then, run the `model.py` script.
 
 ```bash
-python model.py
+python model.py example.csv
 ```
 
 ### Model Creation
@@ -133,12 +132,6 @@ The Python code for complete model creation can be found in the Jupyter Notebook
 - `model_elu.h5`: HDF5 file containing the model weights.
 - `label_encoder.pkl`: Pickle file containing the LabelEncoder.
 
-### Running the Model
 
-Make sure to have the required libraries installed and upload your data in the same format as `example.csv`. Then, run the `model.py` script.
-
-```bash
-python model.py example.csv
-```
 ```
 
