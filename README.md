@@ -58,6 +58,56 @@ Convert this table to the format given in example.csv
 
 </div>
 
+### Default values for each Parameter
+
+| Parameter            | Default |
+|----------------------|---------|
+| Simultaneous         | 0       |
+| Sequential           | 0       |
+| Average temperature  | 0       |
+| Salt                 | 0       |
+| Drought              | 0       |
+| Boron                | 30      |
+| Cd                   | 0       |
+| UV                   | 1       |
+| Ozone                | 0       |
+| Waterlogging         | 0       |
+| Bacteria             | 0       |
+| Fungus               | 0       |
+| Oomycete             | 0       |
+| Virus                | 0       |
+| Nematode             | 0       |
+| Insect               | 0       |
+| Mn                   | 0       |
+| Pb                   | 0       |
+| Zinc                 | 0       |
+| Ni                   | 0       |
+| Weed                 | 0       |
+| Light intensity      | 0       |
+| Shade                | 0       |
+| Lead                 | 0       |
+| Family_Aizoaceae     | 0       |
+| Family_Amaranthaceae | 0       |
+| Family_Araliaceae    | 0       |
+| Family_Asteraceae    | 0       |
+| Family_Brassicaceae  | 0       |
+| Family_Caricaceae    | 0       |
+| Family_Caryophyllaceae | 0     |
+| Family_Cucurbitaceae | 0       |
+| Family_Euphorbiaceae | 0       |
+| Family_Fabaceae      | 0       |
+| Family_Lamiaceae     | 0       |
+| Family_Linaceae      | 0       |
+| Family_Malvaceae     | 0       |
+| Family_Piperaceae    | 0       |
+| Family_Poaceae       | 0       |
+| Family_Rosaceae      | 0       |
+| Family_Solanaceae    | 0       |
+| Family_Theaceae      | 0       |
+| Family_Vitaceae      | 0       |
+| Type_Abiotic-biotic  | 0       |
+| Type_Biotic-biotic   | 0       |
+
 ### Usage
 
 1. Upload your data in the same format as `example.csv`.
@@ -88,7 +138,7 @@ The Python code for complete model creation can be found in the Jupyter Notebook
 Make sure to have the required libraries installed and upload your data in the same format as `example.csv`. Then, run the `model.py` script.
 
 ```bash
-python model.py
+python model.py example.csv
 ```
 ```
 
