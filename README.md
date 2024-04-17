@@ -54,15 +54,17 @@ Convert this table to the format given in example.csv
 </div>
 ``
 
-<pre>
+
 <div style="overflow-x:auto;">
+<pre>
 |Simultaneous|Sequential|Average temperature|Salt|Drought|Boron|Cd|UV|Ozone|Waterlogging|Bacteria|Fungus|Oomycete|Virus|Nematode|Insect|Mn|Pb|Zinc|Ni|Weed|Light intensity|Shade|Lead|Family_Aizoaceae|Family_Amaranthaceae|Family_Araliaceae|Family_Asteraceae|Family_Brassicaceae|Family_Caricaceae|Family_Caryophyllaceae|Family_Cucurbitaceae|Family_Euphorbiaceae|Family_Fabaceae|Family_Lamiaceae|Family_Linaceae|Family_Malvaceae|Family_Piperaceae|Family_Poaceae|Family_Rosaceae|Family_Solanaceae|Family_Theaceae|Family_Vitaceae|Type_Abiotic-biotic|Type_Biotic-biotic|
 |--------------|------------|---------------------|------|---------|-------|----|----|-------|--------------|----------|--------|----------|-------|----------|--------|----|----|------|----|------|-----------------|-------|------|------------------|---------------------|------------------|-------------------|---------------------|------------------|----------------------|----------------------|----------------------|-----------------|------------------|----------------|-----------------|-------------------|-----------------|---------------|-----------------|------------------|-----------------|------------------|---------------------|
 |0|0|0|28|0|0|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
 |0|0|0|36|0|1|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
 |1|0|1|36|0|1|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
-</div>
 </pre>
+</div>
+
 
 
 
