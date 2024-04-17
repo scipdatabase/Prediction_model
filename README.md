@@ -44,26 +44,6 @@ Your data looks like this
 
 
 Convert this table to the format given in example.csv
-``
-<div style="overflow-x:auto;">
-|Simultaneous|Sequential|Average temperature|Salt|Drought|Boron|Cd|UV|Ozone|Waterlogging|Bacteria|Fungus|Oomycete|Virus|Nematode|Insect|Mn|Pb|Zinc|Ni|Weed|Light intensity|Shade|Lead|Family_Aizoaceae|Family_Amaranthaceae|Family_Araliaceae|Family_Asteraceae|Family_Brassicaceae|Family_Caricaceae|Family_Caryophyllaceae|Family_Cucurbitaceae|Family_Euphorbiaceae|Family_Fabaceae|Family_Lamiaceae|Family_Linaceae|Family_Malvaceae|Family_Piperaceae|Family_Poaceae|Family_Rosaceae|Family_Solanaceae|Family_Theaceae|Family_Vitaceae|Type_Abiotic-biotic|Type_Biotic-biotic|
-|--------------|------------|---------------------|------|---------|-------|----|----|-------|--------------|----------|--------|----------|-------|----------|--------|----|----|------|----|------|-----------------|-------|------|------------------|---------------------|------------------|-------------------|---------------------|------------------|----------------------|----------------------|----------------------|-----------------|------------------|----------------|-----------------|-------------------|-----------------|---------------|-----------------|------------------|-----------------|------------------|---------------------|
-|0|0|0|28|0|0|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
-|0|0|0|36|0|1|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
-|1|0|1|36|0|1|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
-</div>
-``
-
-
-<div style="overflow-x:auto;">
-<pre>
-|Simultaneous|Sequential|Average temperature|Salt|Drought|Boron|Cd|UV|Ozone|Waterlogging|Bacteria|Fungus|Oomycete|Virus|Nematode|Insect|Mn|Pb|Zinc|Ni|Weed|Light intensity|Shade|Lead|Family_Aizoaceae|Family_Amaranthaceae|Family_Araliaceae|Family_Asteraceae|Family_Brassicaceae|Family_Caricaceae|Family_Caryophyllaceae|Family_Cucurbitaceae|Family_Euphorbiaceae|Family_Fabaceae|Family_Lamiaceae|Family_Linaceae|Family_Malvaceae|Family_Piperaceae|Family_Poaceae|Family_Rosaceae|Family_Solanaceae|Family_Theaceae|Family_Vitaceae|Type_Abiotic-biotic|Type_Biotic-biotic|
-|--------------|------------|---------------------|------|---------|-------|----|----|-------|--------------|----------|--------|----------|-------|----------|--------|----|----|------|----|------|-----------------|-------|------|------------------|---------------------|------------------|-------------------|---------------------|------------------|----------------------|----------------------|----------------------|-----------------|------------------|----------------|-----------------|-------------------|-----------------|---------------|-----------------|------------------|-----------------|------------------|---------------------|
-|0|0|0|28|0|0|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
-|0|0|0|36|0|1|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
-|1|0|1|36|0|1|30|0|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|0|0|0|0|0|0|
-</pre>
-</div>
 
 <div style="overflow-x:auto;">
   <table style="width:100%;">
@@ -118,14 +98,13 @@ Convert this table to the format given in example.csv
     </thead>
     <tbody>
       <tr>
-        <td>1</td>
+        <td>0</td>
         <td>0</td>
         <td>0</td>
         <td>28</td>
         <td>0</td>
         <td>0</td>
         <td>30</td>
-        <td>0</td>
         <td>1</td>
         <td>0</td>
         <td>0</td>
@@ -157,10 +136,8 @@ Convert this table to the format given in example.csv
         <td>0</td>
         <td>0</td>
         <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
         <td>1</td>
+        <td>0</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -168,114 +145,13 @@ Convert this table to the format given in example.csv
         <td>0</td>
       </tr>
       <tr>
-        <td>2</td>
         <td>0</td>
-        <td>0</td>
-        <td>36</td>
-        <td>0</td>
-        <td>1</td>
-        <td>30</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>0</td>
-        <td>1</td>
-        <td>36</td>
-        <td>0</td>
-        <td>1</td>
-        <td>30</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>1</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0</td>
-      </tr>
-      <tr>
-        <td>4</td>
         <td>0</td>
         <td>0</td>
         <td>28</td>
         <td>0</td>
         <td>0</td>
         <td>30</td>
-        <td>0</td>
         <td>1</td>
         <td>0</td>
         <td>0</td>
@@ -307,6 +183,23 @@ Convert this table to the format given in example.csv
         <td>0</td>
         <td>0</td>
         <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>36</td>
+        <td>0</td>
+        <td>0</td>
+        <td>30</td>
+        <td>1</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -320,6 +213,71 @@ Convert this table to the format given in example.csv
         <td>0</td>
         <td>0</td>
         <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>36</td>
+        <td>0</td>
+        <td>0</td>
+        <td>30</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>0</td>
+        <td>1</td>
         <td>0</td>
         <td>0</td>
         <td>0</td>
@@ -330,6 +288,7 @@ Convert this table to the format given in example.csv
     </tbody>
   </table>
 </div>
+
 
 
 
