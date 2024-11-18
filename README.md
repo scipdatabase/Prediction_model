@@ -30,15 +30,17 @@ or To download the code directly from the repository, you can follow these steps
 3. In the dropdown that appears, select "Download ZIP".
 4. Save the ZIP file to your computer and extract the contents.
 
-This will download the entire repository as a ZIP file, which you can then extract to access the code.
+This will download the entire repository as a ZIP file, the folder can then unzipped, to extract and run the code.
 ### Examples
 Your data looks like this 
-| TREATMENT |Tempratute | Drought | Plant |
+| TREATMENT |Temprature | Drought | Plant |
 |-----------|-----------|---------|-------|
 | Control   | 28.00     | None    | Rice  |
 | Drought   | 28.00     | Mild    | None  |
 | D+H       | 36.00     | Mild    | None  |
 | Heat      | 36.00     | None    | None  |
+
+In table above, Control, Drought, D+H, and Heat represent the various treatments wherein control represents no stress, ‘Drought’ and ‘Heat’ refer to the individual stresses and D+H refers to the combined stress. The column “Temperature” refers to the temperature the plants were exposed to under the respective treatments. The column 'Drought' specifies the intensity of drought stress applied. The perception and impact of drought stress can vary depending on the plant species, as different plants respond uniquely to water scarcity. The column 'Plant' denotes the common name of the plant species studied.
 
 
 Convert this table to the format given in example.csv
