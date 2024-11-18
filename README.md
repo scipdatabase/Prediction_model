@@ -1,5 +1,3 @@
-It looks like the table formatting might be off due to the way GitHub renders markdown. Here's a revised version that should display the table properly:
-
 ```markdown
 # Combined stress
 
