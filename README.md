@@ -1,7 +1,7 @@
 ```markdown
 # Combined stress
 
-This repository contains a model that predicts [describe what your model predicts].
+This repository contains a model that predicts the impact of combined stress in plants.
 
 ## Getting Started
 
@@ -16,9 +16,27 @@ pip install pandas numpy keras scikit-learn
 ```
 
 ### Installation
+Create an environment locally
+##CREATE CONDA ENVIORNMENT###
+
+```bash
+conda create --name model_env python=3.12.4 joblib=1.4.2 numpy=1.26.4 pandas=2.2.2
+```
+
+##ACTIVATE ENVIORNMET##
+```bash
+conda activate model_env
+```
+##INSTALL PACKAGES##
+```bash
+pip install tensorflow==2.17.0 keras==3.4.1
+pip install scikit-learn==1.4.2
+```
+##EDIT INPUT FILES##
+
+#Open model_prediction.py in a text editor and replace file names as mentioned in the script 
 
 Clone the repository:
-
 ```bash
 git clone https://github.com/<your_repo>/your-model.git
 cd your-model
@@ -30,7 +48,7 @@ or To download the code directly from the repository, you can follow these steps
 3. In the dropdown that appears, select "Download ZIP".
 4. Save the ZIP file to your computer and extract the contents.
 
-This will download the entire repository as a ZIP file, the folder can then unzipped, to extract and run the code.
+This will download the entire repository as a ZIP file; the folder can then be unzipped to extract and run the code.
 ### Examples
 Your data looks like this 
 | TREATMENT |Temprature | Drought | Plant |
@@ -40,7 +58,7 @@ Your data looks like this
 | D+H       | 36.00     | Mild    | Rice |
 | Heat      | 36.00     | None    | Rice  |
 
-In table above, Control, Drought, D+H, and Heat represent the various treatments wherein control represents no stress, ‘Drought’ and ‘Heat’ refer to the individual stresses and D+H refers to the combined stress. The column “Temperature” refers to the temperature the plants were exposed to under the respective treatments. The column 'Drought' specifies the intensity of drought stress applied. The perception and impact of drought stress can vary depending on the plant species, as different plants respond uniquely to water scarcity. The column 'Plant' denotes the common name of the plant species studied.
+In the table above, Control, Drought, D+H, and Heat represent the various treatments, where Control represents no stress, ‘Drought’ and ‘Heat’ refer to the individual stresses, and D+H refers to the combined stress. The column “Temperature” refers to the temperature the plants were exposed to under the respective treatments. The column 'Drought' specifies the intensity of drought stress applied. The perception and impact of drought stress can vary depending on the plant species, as different plants respond uniquely to water scarcity. The column 'Plant' denotes the common name of the plant species studied.
 
 
 Convert this table to the format given in example.csv
